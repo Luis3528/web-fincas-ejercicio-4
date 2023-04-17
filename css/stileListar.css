@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+/* Estilos para los elementos td de la última columna */
+td:last-child {
+  font-weight: bold;
+  color: blue;
+}
